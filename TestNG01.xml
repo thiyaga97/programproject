@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name= "facebook suite" verbose="2" parallel="tests" >
+
+<test name= "facebook login">
+<parameter name="UserName" value="devi"></parameter>
+<parameter name="Password" value="devi@123"></parameter>
+<classes>
+
+<class name="test.ng.org.TestngPrac"/>
+
+</classes>
+</test>
+
+<test name= "facebook2">
+<parameter name="UserName" value="lakshmi"></parameter>
+<parameter name="Password" value="lakshmi@123"></parameter>
+<classes>
+<class name="test.ng.org.TestngPrac"/>
+</classes>
+</test>
+
+<test name= "facebook3">
+<parameter name="UserName" value="dammi"></parameter>
+<parameter name="Password" value="dammi@123"></parameter>
+<classes>
+<class name="test.ng.org.TestngPrac"/>
+</classes>
+</test>
+</suite>
